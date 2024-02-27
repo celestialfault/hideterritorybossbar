@@ -1,0 +1,7 @@
+accessWidener v2 named
+accessible field net/minecraft/network/packet/s2c/play/BossBarS2CPacket uuid Ljava/util/UUID;
+accessible field net/minecraft/network/packet/s2c/play/BossBarS2CPacket action Lnet/minecraft/network/packet/s2c/play/BossBarS2CPacket$Action;
+accessible class net/minecraft/network/packet/s2c/play/BossBarS2CPacket$AddAction
+accessible field net/minecraft/network/packet/s2c/play/BossBarS2CPacket$AddAction name Lnet/minecraft/text/Text;
+accessible class net/minecraft/network/packet/s2c/play/BossBarS2CPacket$UpdateNameAction
+accessible field net/minecraft/network/packet/s2c/play/BossBarS2CPacket$UpdateNameAction name Lnet/minecraft/text/Text;

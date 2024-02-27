@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "hideterritorybossbar",
+  "version": "${version}",
+  "name": "HideTerritoryBossbar",
+  "description": "hides wynncraft's territory bossbar for maximum immersion",
+  "authors": ["celeste"],
+  "license": "CC0-1.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["me.celestialfault.hideterritorybossbar.HideTerritoryBossbar"]
+  },
+  "mixins": ["hideterritorybossbar.mixins.json"],
+  "accessWidener": "hideterritorybossbar.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.15",
+    "fabric": "*",
+    "minecraft": "1.20.2"
+  }
+}
